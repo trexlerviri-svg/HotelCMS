@@ -25,16 +25,14 @@ Description: A simple hotel website theme built with WordPress.
     align-items:center;
 
 }
-#testimonials.testimonial{
-    background-color: aliceblue;
+#testimonial.testimonials{
+    background-color: rgb(183, 183, 183);
     padding: 20px;
     margin:10px;
-    border: 1px solid black;
-    border-radius:5px;
+    border: 40px;
+    border-radius:10px;
     width:300px;
     text-align: center;
-
-
 }
 
 .navbar-brand {

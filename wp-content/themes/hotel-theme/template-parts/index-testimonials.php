@@ -1,14 +1,13 @@
 <?php
-$testimonials =get_field("testimonials");
-?>
+$testimonials =get_field("testimonial");?>
 <div id="testimonials">
 <h2>Testimonials<h2>
-<?php foreach($testimonials as $testimonials)?>
+<?php foreach($testimonials as $testimonial):?>
 
 <?php
 
-$quote=get_the_title($testimonial->ID)
-$author=get_field("author",$testimonial->ID)
+$quote=get_the_title($testimonial->ID);
+$author=get_field("author",$testimonial->ID);
  ?>
  <div class="testimonial">
 <div class="quote">"<?= $quote;?></div>
