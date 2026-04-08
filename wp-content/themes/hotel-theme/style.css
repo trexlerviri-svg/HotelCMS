@@ -64,6 +64,18 @@ Description: A simple hotel website theme built with WordPress.
 
 }
 
+#amenities {
+    background-color: bisque;
+    min-height:20vh;
+    padding:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    flex-direction: column;
+}
+
 
 .navbar-brand {
     font-family: 'Grand Hotel', cursive;
