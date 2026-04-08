@@ -3,6 +3,8 @@ $testimonials = get_field("testimonial");
 ?>
 <div id="testimonials">
 <h2>Feedbacks from Our Guests</h2>
+<div class="testimonials">
+
 <?php foreach($testimonials as $testimonial) : ?>
     <?php
     $quote = get_the_title($testimonial->ID);
@@ -13,4 +15,5 @@ $testimonials = get_field("testimonial");
         <div class="author"><?php echo $author; ?></div>
     </div>
 <?php endforeach; ?>
+</div>
 </div>

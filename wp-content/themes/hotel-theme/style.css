@@ -47,6 +47,7 @@ Description: A simple hotel website theme built with WordPress.
     align-items:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
+    flex-direction: column;
 }
 .testimonial{
     display:flex;
