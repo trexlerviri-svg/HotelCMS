@@ -5,7 +5,9 @@
     <?php
     $hotelName = get_bloginfo("name");
     $contact = get_field("contact", get_option("page_on_front"));
+    $map= get_field("map", get_option("page_on_front"));
     ?>
+    <img src="<?= $map["url"] ?>" alt="Hotel Map" width="300" height="230">
 
     <div>
         <p><?= $hotelName ?></p>
